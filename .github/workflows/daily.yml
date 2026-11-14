@@ -1,0 +1,34 @@
+name: daily-alt-signal
+
+on:
+  schedule:
+    - cron: '20 0 * * *'      # every day 00:20 UTC, right after the Binance daily candle closes
+  workflow_dispatch:           # "Run workflow" button for a manual run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: alt-signal
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install
+        run: pip install pandas numpy
+      - name: Compute today's signal
+        run: python alt_signal.py
+      - name: Save results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898729+github-actions[bot]@users.noreply.github.com"
+          git add docs state
+          git diff --cached --quiet || git commit -m "signal $(date -u +%F)"
+          git push
