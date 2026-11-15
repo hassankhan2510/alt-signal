@@ -1,5 +1,9 @@
 {
  "date": "2026-11-14",
+ "invest_pct": 0,
+ "btc_switch": "OFF",
+ "alt_switch": "OFF",
+ "next_recheck": "2026-11-15",
  "switch": "OFF",
  "btc": 64150.0,
  "btc_ma50": 80225.41,
@@ -113,10 +117,10 @@
   "SPCXB": "tokenized stock (name ends in B, weekend moves 14% of weekday)",
   "SOXLB": "tokenized stock (name ends in B, weekend moves 20% of weekday)",
   "GOOGLB": "tokenized stock (name ends in B, weekend moves 20% of weekday)",
-  "SNDKB": "tokenized stock (name ends in B, weekend moves 21% of weekday)"
+  "INTCB": "tokenized stock (name ends in B, weekend moves 21% of weekday)"
  },
  "model_equity": 1.0,
  "holdings": {},
  "actions_today": [],
- "generated_utc": "2026-11-15 06:48"
+ "generated_utc": "2026-11-15 12:56"
 }
