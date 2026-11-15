@@ -1,77 +1,77 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "switch": "OFF",
- "btc": 68314.0,
- "btc_ma50": 80624.41,
- "stablecoins_7d_pct": -1.471,
+ "btc": 64150.0,
+ "btc_ma50": 80225.41,
+ "stablecoins_7d_pct": -1.642,
  "size": "half",
  "top5": [
   "INJ",
-  "AVAX",
+  "PEPE",
   "ARB",
-  "XLM",
-  "PEPE"
+  "TAO",
+  "AVAX"
  ],
  "ranking": {
   "INJ": {
-   "volume share": 0.767,
+   "volume share": 0.8,
    "net buying": 0.967,
-   "money balance": 0.933,
-   "money score": 0.889
+   "money balance": 0.967,
+   "money score": 0.911
   },
-  "AVAX": {
-   "volume share": 1.0,
-   "net buying": 0.667,
-   "money balance": 0.867,
+  "PEPE": {
+   "volume share": 0.9,
+   "net buying": 0.633,
+   "money balance": 1.0,
    "money score": 0.844
   },
   "ARB": {
-   "volume share": 0.967,
-   "net buying": 0.8,
-   "money balance": 0.633,
-   "money score": 0.8
-  },
-  "XLM": {
-   "volume share": 0.667,
-   "net buying": 1.0,
-   "money balance": 0.6,
-   "money score": 0.756
-  },
-  "PEPE": {
    "volume share": 0.933,
-   "net buying": 0.3,
-   "money balance": 0.967,
-   "money score": 0.733
+   "net buying": 0.8,
+   "money balance": 0.7,
+   "money score": 0.811
   },
   "TAO": {
-   "volume share": 0.467,
-   "net buying": 0.9,
-   "money balance": 0.767,
-   "money score": 0.711
+   "volume share": 0.5,
+   "net buying": 1.0,
+   "money balance": 0.733,
+   "money score": 0.744
   },
-  "ETH": {
-   "volume share": 0.733,
-   "net buying": 0.533,
-   "money balance": 0.8,
-   "money score": 0.689
+  "AVAX": {
+   "volume share": 1.0,
+   "net buying": 0.267,
+   "money balance": 0.933,
+   "money score": 0.733
+  },
+  "XLM": {
+   "volume share": 0.6,
+   "net buying": 0.933,
+   "money balance": 0.633,
+   "money score": 0.722
+  },
+  "ADA": {
+   "volume share": 0.667,
+   "net buying": 0.6,
+   "money balance": 0.667,
+   "money score": 0.644
+  },
+  "AAVE": {
+   "volume share": 0.4,
+   "net buying": 0.5,
+   "money balance": 0.867,
+   "money score": 0.589
   },
   "SOL": {
-   "volume share": 0.8,
-   "net buying": 0.7,
-   "money balance": 0.3,
-   "money score": 0.6
+   "volume share": 0.867,
+   "net buying": 0.533,
+   "money balance": 0.367,
+   "money score": 0.589
   },
-  "BMT": {
-   "volume share": 0.167,
-   "net buying": 0.567,
-   "money balance": 1.0,
-   "money score": 0.578
-  },
-  "ONDO": {
-   "volume share": 0.433,
-   "net buying": 0.767,
-   "money balance": 0.467,
-   "money score": 0.556
+  "ETH": {
+   "volume share": 0.767,
+   "net buying": 0.233,
+   "money balance": 0.767,
+   "money score": 0.589
   }
  },
  "universe": [
@@ -79,7 +79,6 @@
   "ADA",
   "ARB",
   "AVAX",
-  "BMT",
   "BNB",
   "DOGE",
   "ENA",
@@ -89,6 +88,7 @@
   "INJ",
   "LINK",
   "LTC",
+  "MSTRB",
   "NEAR",
   "ONDO",
   "PEPE",
@@ -107,16 +107,16 @@
   "ZRO"
  ],
  "excluded": {
-  "NVDAB": "tokenized stock (name ends in B, weekend moves 28% of weekday)",
-  "SPCXB": "tokenized stock (name ends in B, weekend moves 13% of weekday)",
   "U": "stablecoin (price barely moves)",
+  "NVDAB": "tokenized stock (name ends in B, weekend moves 28% of weekday)",
+  "CRCLB": "tokenized stock (name ends in B, weekend moves 40% of weekday)",
+  "SPCXB": "tokenized stock (name ends in B, weekend moves 14% of weekday)",
   "SOXLB": "tokenized stock (name ends in B, weekend moves 20% of weekday)",
-  "MSTRB": "tokenized stock (name ends in B, weekend moves 34% of weekday)",
-  "CRCLB": "tokenized stock (name ends in B, weekend moves 25% of weekday)",
-  "SNDKB": "tokenized stock (name ends in B, weekend moves 20% of weekday)"
+  "GOOGLB": "tokenized stock (name ends in B, weekend moves 20% of weekday)",
+  "SNDKB": "tokenized stock (name ends in B, weekend moves 21% of weekday)"
  },
  "model_equity": 1.0,
  "holdings": {},
  "actions_today": [],
- "generated_utc": "2026-11-14 16:45"
+ "generated_utc": "2026-11-15 06:48"
 }
