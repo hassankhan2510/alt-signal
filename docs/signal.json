@@ -1,87 +1,86 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-16",
  "invest_pct": 0,
  "btc_switch": "OFF",
  "alt_switch": "OFF",
  "next_recheck": "2026-11-17",
  "switch": "OFF",
- "btc": 65351.05,
- "btc_ma50": 79843.77,
- "stablecoins_7d_pct": -1.519,
+ "btc": 64882.87,
+ "btc_ma50": 79451.99,
+ "stablecoins_7d_pct": -1.52,
  "size": "half",
  "top5": [
-  "INJ",
-  "AVAX",
-  "PEPE",
-  "ADA",
-  "ARB"
+  "MUB",
+  "ASTER",
+  "GRAM",
+  "TAO",
+  "PEPE"
  ],
  "ranking": {
-  "INJ": {
-   "volume share": 0.733,
-   "net buying": 0.733,
-   "money balance": 0.967,
-   "money score": 0.811
-  },
-  "AVAX": {
-   "volume share": 0.967,
-   "net buying": 0.567,
-   "money balance": 0.9,
-   "money score": 0.811
-  },
-  "PEPE": {
-   "volume share": 0.6,
-   "net buying": 0.8,
-   "money balance": 1.0,
-   "money score": 0.8
-  },
-  "ADA": {
-   "volume share": 0.867,
-   "net buying": 0.767,
-   "money balance": 0.733,
-   "money score": 0.789
-  },
-  "ARB": {
-   "volume share": 0.8,
-   "net buying": 0.9,
-   "money balance": 0.667,
-   "money score": 0.789
-  },
-  "TAO": {
-   "volume share": 0.5,
+  "MUB": {
+   "volume share": 0.933,
    "net buying": 1.0,
-   "money balance": 0.833,
-   "money score": 0.778
+   "money balance": 0.7,
+   "money score": 0.878
   },
   "ASTER": {
    "volume share": 1.0,
-   "net buying": 0.367,
-   "money balance": 0.933,
-   "money score": 0.767
+   "net buying": 0.6,
+   "money balance": 1.0,
+   "money score": 0.867
   },
-  "MUB": {
-   "volume share": 0.833,
-   "net buying": 0.467,
+  "GRAM": {
+   "volume share": 0.967,
+   "net buying": 0.633,
+   "money balance": 0.8,
+   "money score": 0.8
+  },
+  "TAO": {
+   "volume share": 0.567,
+   "net buying": 0.933,
+   "money balance": 0.833,
+   "money score": 0.778
+  },
+  "PEPE": {
+   "volume share": 0.5,
+   "net buying": 0.867,
+   "money balance": 0.967,
+   "money score": 0.778
+  },
+  "AVAX": {
+   "volume share": 0.8,
+   "net buying": 0.5,
    "money balance": 0.867,
    "money score": 0.722
   },
+  "ADA": {
+   "volume share": 0.833,
+   "net buying": 0.667,
+   "money balance": 0.6,
+   "money score": 0.7
+  },
   "LTC": {
-   "volume share": 0.7,
-   "net buying": 0.933,
-   "money balance": 0.333,
+   "volume share": 0.733,
+   "net buying": 0.967,
+   "money balance": 0.267,
    "money score": 0.656
   },
-  "ETH": {
+  "MSTRB": {
+   "volume share": 0.6,
+   "net buying": 0.333,
+   "money balance": 0.9,
+   "money score": 0.611
+  },
+  "DOGE": {
    "volume share": 0.767,
-   "net buying": 0.1,
-   "money balance": 0.8,
-   "money score": 0.556
+   "net buying": 0.567,
+   "money balance": 0.367,
+   "money score": 0.567
   }
  },
  "universe": [
   "AAVE",
   "ADA",
-  "ARB",
   "ASTER",
   "AVAX",
   "BNB",
@@ -89,6 +88,7 @@
   "ENA",
   "ETH",
   "FET",
+  "GRAM",
   "HBAR",
   "INJ",
   "LINK",
@@ -111,22 +111,22 @@
   "ZEC"
  ],
  "excluded": {
-  "NVDAB": "tokenized stock (name ends in B, weekend moves 36% of weekday)",
+  "NVDAB": "tokenized stock (name ends in B, weekend moves 34% of weekday)",
   "SOXLB": "tokenized stock (name ends in B, weekend moves 24% of weekday)",
   "SPCXB": "tokenized stock (name ends in B, weekend moves 21% of weekday)",
-  "INTCB": "tokenized stock (name ends in B, weekend moves 24% of weekday)",
+  "SNDKB": "tokenized stock (name ends in B, weekend moves 23% of weekday)",
   "U": "stablecoin (price barely moves)",
-  "KORUB": "tokenized stock (name ends in B, weekend moves 27% of weekday)",
+  "GOOGLB": "tokenized stock (name ends in B, weekend moves 24% of weekday)",
+  "SOXSB": "tokenized stock (name ends in B, weekend moves 22% of weekday)",
+  "KORUB": "tokenized stock (name ends in B, weekend moves 26% of weekday)",
+  "QQQB": "tokenized stock (name ends in B, weekend moves 29% of weekday)",
+  "INTCB": "tokenized stock (name ends in B, weekend moves 24% of weekday)",
+  "CRCLB": "tokenized stock (name ends in B, weekend moves 45% of weekday)",
   "SKHYB": "tokenized stock (name ends in B, weekend moves 26% of weekday)",
-  "QQQB": "tokenized stock (name ends in B, weekend moves 30% of weekday)",
-  "GOOGLB": "tokenized stock (name ends in B, weekend moves 25% of weekday)",
-  "CRCLB": "tokenized stock (name ends in B, weekend moves 44% of weekday)",
-  "TQQQB": "tokenized stock (name ends in B, weekend moves 30% of weekday)",
-  "SNDKB": "tokenized stock (name ends in B, weekend moves 24% of weekday)",
-  "NBISB": "tokenized stock (name ends in B, weekend moves 21% of weekday)"
+  "SNXXB": "tokenized stock (name ends in B, weekend moves 23% of weekday)"
  },
  "model_equity": 1.0,
  "holdings": {},
  "actions_today": [],
- "generated_utc": "2026-11-16 06:46"
+ "generated_utc": "2026-11-17 08:07"
 }
